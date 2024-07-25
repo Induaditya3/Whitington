@@ -84,4 +84,3 @@ let lower c =
 
 (* author's version is exactly same, so omitted *)
 
-(*  *)
