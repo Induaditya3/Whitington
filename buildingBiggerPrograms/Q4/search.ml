@@ -16,5 +16,7 @@ let rec list_lines ch =
 let read_search s fname =
   let ch = open_in fname in
   let list = list_lines ch in 
-  List.iter (fun x -> if contain s (String.length s) x then print_string x ) list;
+  List.iter 
+  (fun x -> if contain s (String.length s) x then (print_string x; print_newline ()) )
+     list;
   close_in ch
