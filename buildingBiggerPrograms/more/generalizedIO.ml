@@ -249,3 +249,5 @@ let build_buffer () =
   o.output_char 'y';
   o.output_char 'a';
   Buffer.contents b
+
+(* author's version - same *)
